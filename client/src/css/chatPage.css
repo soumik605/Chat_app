@@ -1,0 +1,123 @@
+.container {
+  width: 100%;
+  max-width: 900px;
+  height: 100vh;
+  display: block;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding-top: 4rem;
+  margin: auto;
+}
+
+.info {
+  width: 100%;
+  height: 3rem;
+  background: #075e54;
+  color: rgb(240, 240, 240);  
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  width: 100%;
+  height: calc(100vh - 4rem - 3rem - 3rem);
+  border-bottom: none;
+  display: block;
+  overflow: auto;
+  position: relative;
+  background-image: url("https://gbwhatsapp.net/wp-content/uploads/2021/01/3d.jpg");
+}
+
+
+.input {
+  width: 100%;
+  padding-bottom: 0;
+  height: 3rem;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+.text {
+  width: 85%;
+  height: 3rem;
+  border-radius: 17px;
+}
+
+.msgbox {
+  border-radius: 40px;
+  max-width: fit-content;
+  min-width: 100px;
+  margin: 6px;
+  font-size: 12px;
+  padding: 10px 30px;
+  overflow: hidden;
+  word-break: break-all;
+}
+
+.my {
+  margin-left: auto;
+  text-align: right;
+  color: rgb(2, 0, 0);
+  background: rgb(255, 255, 255);
+}
+
+.ot {
+  color: white;
+  background: rgb(1, 93, 212);
+}
+
+.msgbox h2 {
+  margin: 1px;
+  font-family: "Nunito", sans-serif;
+  bottom: 5px;
+}
+
+.msgbox h4 {
+  margin: 1px;
+  font-family: "Nunito", sans-serif;
+}
+
+.info h2 {
+  margin: auto;
+  text-align: center;
+ 
+}
+
+.main Button {
+  position: fixed;
+  background-color: tomato;
+  color: white;
+}
+
+
+
+
+.RoomDetails {
+  position: absolute;
+  z-index: 20;
+  background-color: #075e54;
+  height: 20rem;
+  display: grid;
+  align-items: center;
+  top: 6rem;
+  width: 100%;
+  max-width: 900px;
+}
+
+.RoomDetails ul {
+  top: 4rem;
+  height: 20rem;
+  display: flex;
+  background-color: #075e54;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+.RoomDetails ul li {
+  font-size: 1rem;
+}
+
+.RoomDetails ul li a {
+  color: white;
+}
